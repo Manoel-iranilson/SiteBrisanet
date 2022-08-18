@@ -4,12 +4,17 @@ import {useLottie} from "lottie-react"
 import internet from '../../assets/internet.json'
 
 function About() {
+  
+  const style = {
+    height: 300,
+  };
 
   const options = {
     animationData: internet,
-    loop: true
+    loop: true,
+    
   };
-  const { View } = useLottie(options);
+  const { View } = useLottie(options,style);
     
   return ( 
   <section>
@@ -21,7 +26,9 @@ function About() {
           <a className="btn w-50 p-3 fw-bold text-white " style={{backgroundColor:"#F56E28"}}>Assine Já<MdEast className='mx-1' size={20}/></a>
         </div>
         <div className="col-md-6">
+          
           {View}
+          
         </div>
     </div>
   </section>
