@@ -7,7 +7,7 @@ import upload from '../../assets/icons/upload.png'
 
 function Prices() {
   return (
-    <section>
+    <section id='prices' >
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
         
         <div class="col">
@@ -36,10 +36,10 @@ function Prices() {
             <div class="card-body">
               <h1 class="card-title pricing-card-title">R$ 89,99<small class="text-muted fw-light">/mês</small></h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li> <img class="mx-2 mb-1" src="/icons//fibraotica.png"/>  100% fibra óptica</li>
-                <li> <img class="mx-2 mb-1" src="/icons//wifi.png"/>wi-fi de alta performace</li>
-                <li><img class="mx-2 mb-1" src="/icons//download.png"/> Download 200 Mbps</li>
-                <li><img class="mx-2 mb-1" src="/icons//upload.png"/> Upload 100 Mbps</li>
+              <li><img class="mx-2 mb-1" src={fibraoptica} /> 100% fibra óptica</li>
+                <li> <img class="mx-2 mb-1" src={wifi} />Wi-fi de alta performance</li>
+                <li><img class="mx-2 mb-1" src={download} /> Download 200 Mbps</li>
+                <li><img class="mx-2 mb-1" src={upload}/> Upload 100Mbps</li>
               </ul>
               <button type="button" class="w-100 btn btn-lg btn-primary text-white" style={{backgroundColor:"#F56E28"}} >Assine Já</button>
             </div>
@@ -55,10 +55,10 @@ function Prices() {
             <div class="card-body">
               <h1 class="card-title pricing-card-title">R$ 79,99<small class="text-muted fw-light">/mês</small></h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li><img class="mx-2 mb-1" src="/icons//fibraotica.png"/> 100% fibra óptica</li>
-                <li><img class="mx-2 mb-1" src="/icons//wifi.png"/>wi-fi de alta performace</li>
-                <li><img class="mx-2 mb-1" src="/icons//download.png"/> Download 70 Mbps</li>
-                <li><img class="mx-2 mb-1" src="/icons//upload.png"/> Upload 35 Mbps</li>
+              <li><img class="mx-2 mb-1" src={fibraoptica} /> 100% fibra óptica</li>
+                <li> <img class="mx-2 mb-1" src={wifi} />Wi-fi de alta performance</li>
+                <li><img class="mx-2 mb-1" src={download} /> Download 70 Mbps</li>
+                <li><img class="mx-2 mb-1" src={upload}/> Upload 35Mbps</li>
               </ul>
               <button type="button" class="w-100 btn btn-lg text-white" style={{backgroundColor:"#F56E28"}} >Assine Já</button>
             </div>

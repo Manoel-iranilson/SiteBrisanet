@@ -11,12 +11,11 @@ function NavBar() {
           <span className="fs-4 fw-bold">Brisanet</span>
       </a>
 
-      <ul className="mt-3 nav nav-pills">
+      <ul id="menu" className="mt-3 nav nav-pills">
         <li className="nav-item"><a href="#" className="nav-link active" aria-current="page">Home</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">Serviços</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">Preços</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">FAQ</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">Contato</a></li>
+        <li className="nav-item"><a href="#plans" className="nav-link">Serviços</a></li>
+        <li className="nav-item"><a href="#prices" className="nav-link">Preços</a></li>
+        <li className="nav-item"><a href="#contacts" className="nav-link">Contato</a></li>
       </ul>
     </header>
     );

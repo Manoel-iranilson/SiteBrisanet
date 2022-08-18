@@ -5,7 +5,7 @@ import Companhia from '../../assets/icons/companhia.png'
 
 function Plans() {
   return (
-    <section id="servicos" class="text-center py-5 my-5">
+    <section id="plans" class="text-center py-5 my-5">
     <div class="row">
       <div class="col-12 mb-5">
           <h2 class="fw-bold">Serviços prestados</h2>
